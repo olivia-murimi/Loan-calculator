@@ -7,13 +7,15 @@ body{
     align-items: center;
     font-family: "Oleo Script";
     font-weight: 400;
+    background:#778899 ;
 
 }
 .container{
-    background: darkcyan;
-    color: aliceblue;
+    background: rgb(2, 61, 61);
+    color: rgb(215, 229, 244);
     padding: 20px;
     border-radius: 10px;
+    width: 30%;
 
 }
 .input{
