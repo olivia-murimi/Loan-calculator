@@ -6,4 +6,6 @@ function calculateLoan() {
     MonthsToPayValue = document.getElementById("months-to-pay").value
 
     interest =(loanAmountValue * (interestRateValue * 0.01)) /MonthsToPayValue
+
+    monthlyPayment = (loanAmountValue / MonthsToPayValue + interest)
 }
