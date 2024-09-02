@@ -4,4 +4,6 @@ function calculateLoan() {
     interestRateValue = document.getElementById("interest-rate").value
 
     MonthsToPayValue = document.getElementById("months-to-pay").value
+
+    interest =(loanAmountValue * (interestRateValue * 0.01)) /MonthsToPayValue
 }
